@@ -1,0 +1,13 @@
+//
+//  DetailPageViewOutput.swift
+//  News API
+//
+//  Created by Eldor Makkambayev on 11.07.2021.
+//
+
+import Foundation
+
+protocol DetailPageViewOutput: AnyObject {
+    func didLoad()
+    func didSaveButtonTapped()
+}
